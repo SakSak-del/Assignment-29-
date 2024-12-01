@@ -33,3 +33,20 @@ textarea {
     font-size: 1rem;
     resize: none;
 }
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+button {
+    flex: 1 1 calc(50% - 10px);
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
