@@ -7,3 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>Text Operations</h1>
+        </header>
+        <main>
+            <textarea id="textInput" placeholder="Type your text here..."></textarea>
+            <div class="buttons">
+                <button onclick="convertToUpperCase()">Uppercase</button>
+                <button onclick="convertToLowerCase()">Lowercase</button>
+                <button onclick="countWords()">Word Count</button>
+                <button onclick="countCharacters()">Character Count</button>
+            </div>
+            <div id="result"></div>
+        </main>
